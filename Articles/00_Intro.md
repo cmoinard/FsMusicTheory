@@ -30,3 +30,4 @@ I will dive a bit into music theory, but you don't have to know it. If you alrea
 ## Articles
 
 - Step 1: [Get a random note]()
+- Step 2: [Notes of the Major scale]()

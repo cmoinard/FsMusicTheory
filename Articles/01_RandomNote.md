@@ -1,5 +1,10 @@
 # First step: Get a random note
 
+This is the first part of the music theory in F# series:
+- [Introduction]()
+- Step 1: Random note
+- Step 2: [The Major scale]()
+
 ## Theory
 
 There are 12 notes in occidental music theory, 7 natural and 5 altered:
@@ -111,6 +116,6 @@ It is a powerful operator which is used a lot in F#.
 
 ## Conclusion
 
-That's all for this step. You can check out the full code [here](https://github.com/cmoinard/FsMusicTheory/blob/main/Scripts/01_Step01.fsx).
+That's all for this step. You can check out the full code [here](https://github.com/cmoinard/FsMusicTheory/blob/main/Scripts/01_RandomNote.fsx).
 
 Next step: [The Major scale]()
