@@ -111,6 +111,6 @@ It is a powerful operator which is used a lot in F#.
 
 ## Conclusion
 
-That's all for this step. You can check out the full code [here]().
+That's all for this step. You can check out the full code [here](https://github.com/cmoinard/FsMusicTheory/blob/main/Scripts/01_Step01.fsx).
 
 Next step: [The Major scale]()

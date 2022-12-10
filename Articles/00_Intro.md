@@ -10,7 +10,7 @@ It helped me to understand what I play, which are almost only covers. I do not c
 
 One day, I had an idea. What if I create a script to generate a music scale to help me write something. For instance, the script can say: "D# phrygian" and it will force me to compose something in this scale. So I wrote a script with F#. It didn't help me compose music AT ALL because I really enjoyed writing this script and I couldn't stop adding features.
 
-# Prerequisites
+## Prerequisites
 
 If you want to test the F# code in these articles, you will need to:
 - Install [dotnet](https://dotnet.microsoft.com/en-us/download)
@@ -18,10 +18,15 @@ If you want to test the F# code in these articles, you will need to:
 
 Once there are installed, set the language in VsCode as F#, then you can select code and press `Alt+Enter` to send the selection into the F# Interactive (FSI).
 
+You can execute this script by opening a terminal and execute:
+```
+dotnet fsi MyScript.fsx
+```
+
 If it's your first time with F#, be careful, the indentation is important, like Python.
 
 I will dive a bit into music theory, but you don't have to know it. If you already know music theory, you will see horrible things. Keep in mind that the mistakes are intentional to simplify the explanations, but I will fix them later.
 
-# Articles
+## Articles
 
 - Step 1: [Get a random note]()
