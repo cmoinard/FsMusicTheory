@@ -20,8 +20,8 @@ Once there are installed, set the language in VsCode as F#, then you can select 
 
 If it's your first time with F#, be careful, the indentation is important, like Python.
 
-I will dive a bit into music theory, but you don't have to know it. I hope I will explain it so well you can than explain what a C# phrygian is :D
+I will dive a bit into music theory, but you don't have to know it. If you already know music theory, you will see horrible things. Keep in mind that the mistakes are intentional to simplify the explanations, but I will fix them later.
 
 # Articles
 
-- Step 1: Get a random note
+- Step 1: [Get a random note]()
