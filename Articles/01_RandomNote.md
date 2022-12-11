@@ -1,9 +1,10 @@
-# First step: Get a random note
+# First step: Random note
 
 This is the first part of the music theory in F# series:
 - [Introduction]()
 - Step 1: Random note
 - Step 2: [The Major scale]()
+- Step 3: [Chords of the Major scale]()
 
 ## Theory
 
@@ -90,6 +91,19 @@ printfn "Chosen note: %s" (Note.name randomNote)
 `match ... with` is a pattern match, it's like a (very) powerful `switch`. So `name` works like this:
 - If it's a sharp note, return `"...#"`
 - Else return the string representation of the note
+
+Another big F# feature is that the compiler infers a lot of things for you. It can infers that `name` is a function that takes a `Note` as argument and returns a `string` because the pattern matching matches `Note` values and returns `string`. So no need to be explicit about the types in general, the code will be more concise with this strong typing. But if you prefer to be explicit, you can rewrite this function as follows:
+```fsharp
+module Note =
+    let name (note: Note): string =
+        match note with
+        | CSharp -> "C#"
+        | DSharp -> "D#"
+        | FSharp -> "F#"
+        | GSharp -> "G#"
+        | ASharp -> "A#"
+        | n -> string n
+```
 
 Then the `printfn` function write in the console:
 ```

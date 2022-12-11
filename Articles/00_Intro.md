@@ -4,6 +4,7 @@ This is the introduction of the music theory in F# series:
 - Introduction
 - Step 1: [Random note]()
 - Step 2: [The Major scale]()
+- Step 3: [Chords of the Major scale]()
 
 ## Backstory
 
@@ -34,6 +35,9 @@ You can also execute a script by opening a terminal and execute:
 dotnet fsi MyScript.fsx
 ```
 
-I will dive a bit into music theory, but you don't have to know it. I hope you will understand how music can be made. If you already know music theory, you will see horrible things. Keep in mind that the mistakes are intentional to simplify the explanations, but I will fix them later.
+I will dive a bit into music theory, but you don't have to know it. I hope you will understand how music can be made. I recommand to install a piano app on your phone to have a better idea of what I will explain.
+
+If you already know music theory, you will see horrible things. Keep in mind that the mistakes are intentional to simplify the explanations, but I will fix them later.
+
 
 Next step: [Random note]()

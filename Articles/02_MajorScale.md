@@ -1,9 +1,10 @@
-# Second step: List all the notes of the major scale
+# Second step: The Major scale
 
 This is the second part of the music theory in F# series:
 - [Introduction]()
 - Step 1: [Random note]()
 - Step 2: The Major scale
+- Step 3: [Chords of the Major scale]()
 
 
 ## Theory
@@ -175,4 +176,4 @@ Yay, now we can play random notes in this scale and it sound good!
 
 That's all for this step. You can check out the full code [here](https://github.com/cmoinard/FsMusicTheory/blob/main/Scripts/02_MajorScale.fsx).
 
-Next step: [The chords of the Major scale]()
+Next step: [Chords of the Major scale]()
